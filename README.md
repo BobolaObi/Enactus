@@ -1,6 +1,15 @@
 # Enactus
 
+Enactus is the largest student leadership organization in the world and strives to solve environmental, social, and economic issues through entrepreneurial action.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+
+# UI Design 
+View the UI files here
+
+![Screenshot 2022-06-06 at 11 44 58 PM](https://user-images.githubusercontent.com/91813831/172291432-19ca0d0e-fd19-4180-99e2-6a2ee611e75a.png)
+
+-> https://www.figma.com/file/Niu286aXxbVaGvr5QRtCjv/Enactus?node-id=0%3A1
 
 ## Development server
 
