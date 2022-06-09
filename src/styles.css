@@ -13,3 +13,9 @@ p, button{
   /*word-spacing: 3px;*/
   /*line-height: 20px;*/
 }
+
+html{
+  scroll-behavior: smooth;
+  align-items: center;
+  margin: auto;
+}
