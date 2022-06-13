@@ -1,0 +1,23 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:90px 0px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  object-fit: contain;
+}
+
