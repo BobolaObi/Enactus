@@ -21,6 +21,9 @@ main {
   display: flex;
   flex-direction: row;
   margin: 10px 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 div {

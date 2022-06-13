@@ -1,7 +1,7 @@
 <body id="team">
 <h3>Executive Team</h3>
-<main *ngFor="let items of executiveTeam">
-  <div>
+<main>
+  <div  *ngFor="let items of executiveTeam">
     <img src="{{items.image}}" alt="executiveTeam">
     <h4>{{items.name}}</h4>
     <p>{{items.title}}</p>
@@ -9,13 +9,20 @@
 </main>
 
 <h3>PROJECT MANAGERS</h3>
-<main *ngFor="let items of projectManagers">
-  <div>
+
+<main >
+
+  <div *ngFor="let items of projectManagers">
+
     <img src="{{items.image}}" alt="projectManagers">
     <h4>{{items.name}}</h4>
     <p>{{items.title}}</p>
+
+
+
   </div>
 </main>
+
 </body>
 
 
