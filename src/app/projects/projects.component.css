@@ -1,6 +1,6 @@
-h3, h4, h5, p{
-   margin: 0px;
-   padding: 0px;
+h3,h4, p{
+   margin: 0;
+   padding: 0;
 }
 
 h3 {
@@ -13,12 +13,14 @@ h3 {
   border-bottom-right-radius: 30px;
 }
 body {
+
   display: flex;
   flex-direction: row;
   color: whitesmoke;
 }
 
 main {
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,6 +32,7 @@ img{
   object-fit: contain;
 }
 span{
+  overflow: hidden;
   /*background-color: #d289d2;*/
   display: flex;
   flex-direction: row;
@@ -57,12 +60,11 @@ div{
     background-color: white;
     color: black;
     width: 30%;
-    margin: auto;
-   text-align: center;
+    text-align: center;
     padding:10px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-bottom: 70px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: auto auto 70px;
     border-bottom: 2px solid #ffea00;
 
 
@@ -71,7 +73,6 @@ div{
 
 @media only screen and (max-width: 800px){
   span{
-    /*background-color: #d289d2;*/
     flex-direction: column;
     align-items: center;
    text-align: center;

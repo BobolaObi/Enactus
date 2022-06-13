@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SponsorsComponent } from './sponsors.component';
 
+
 describe('SponsorsComponent', () => {
   let component: SponsorsComponent;
   let fixture: ComponentFixture<SponsorsComponent>;
