@@ -1,4 +1,4 @@
-
+/*Body styles*/
 body {
   background-image: url("src/assets/Images/Asset 1.svg"),
   linear-gradient(110deg, #18073C, #401515);
@@ -9,8 +9,9 @@ body {
   background-color: #30183C;
   align-items: center;
   justify-content: space-between;
-margin-top: 140px;
+  margin-top: 140px;
 }
+
 div{
   display: flex;
   flex-direction: column;
@@ -18,7 +19,22 @@ div{
   padding: 0px 30px;
 
 }
-
+/*Image styles*/
 img{
   width: 200px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 868px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+  }
+
+div{
+   padding:10px;
+  text-align: center;
+  }
 }
