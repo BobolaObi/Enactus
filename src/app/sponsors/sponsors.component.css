@@ -1,4 +1,8 @@
+h3 {
 
+  border-bottom: 2px solid #ffea00;
+  padding-bottom: 10px;
+}
 body{
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 /* Header Styles & Content */
 body {
-
+margin-bottom: 40px;
 }
 
 /*Body content styles*/
@@ -12,6 +12,7 @@ header{
   background-image: url("src/assets/Images/Asset 1.svg"),
   linear-gradient(110deg, #18073C, #401515);
   background-repeat:unset;
+  border-bottom: 2px solid #ffea00;
 }
 
 /*Navigation styles*/
