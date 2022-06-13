@@ -2,27 +2,19 @@
 body {
 
 }
+
+/*Body content styles*/
 header{
   font-size: 30px;
   color: whitesmoke;
   background-color: #30183C;
   padding: 200px;
-}
-
-button{
-  padding: 20px 60px;
-  border-radius: 10px;
-  color: whitesmoke;
-  border: 2px solid #d2d0d0;
-  background-color: #011833;
-  font-size: 20px;
-}
-header {
   background-image: url("src/assets/Images/Asset 1.svg"),
   linear-gradient(110deg, #18073C, #401515);
-background-repeat:unset;
-
+  background-repeat:unset;
 }
+
+/*Navigation styles*/
 nav {
   display: flex;
   flex-direction: row;
@@ -30,19 +22,15 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(39, 10, 50);
+  /*background-color: rgb(39, 10, 50);*/
+  /*background-image: url("src/assets/Images/Asset 1.svg"),*/
+  /*linear-gradient(110deg, #18073C, #401515);*/
+  background-image: linear-gradient(110deg, #18073C, #401515);
   list-style-type: none;
 }
-
-ul > li {
-  display: flex;
-  list-style-type: none;
-  font-size: 0.9em;
-}
-
 nav img {
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 50px;
   width: auto;
   max-height: 72px;
   max-width: 250px;
@@ -61,11 +49,24 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
+}
+
+ul > li {
+  display: flex;
+  list-style-type: none;
+  font-size: 0.9em;
 }
 
 a:hover {
   border-bottom: 2px solid #ffea00;
 }
 
-
+button{
+  padding: 20px 60px;
+  border-radius: 10px;
+  color: whitesmoke;
+  border: 2px solid #d2d0d0;
+  background-color: #011833;
+  font-size: 20px;
+}
