@@ -5,10 +5,13 @@ margin-bottom: 40px;
 
 /*Body content styles*/
 header{
-  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 25px;
   color: whitesmoke;
   background-color: #30183C;
-  padding: 200px;
+padding:200px 10px;
   background-image: url("src/assets/Images/Asset 1.svg"),
   linear-gradient(110deg, #18073C, #401515);
   background-repeat:unset;
@@ -70,4 +73,92 @@ button{
   border: 2px solid #d2d0d0;
   background-color: #011833;
   font-size: 20px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+span > img{
+  padding-left:140px;
+  width: 570px;
+  object-fit: cover;
+}
+section{
+ display: none;
+  margin: 0;
+}
+@media only screen and (max-width: 1000px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    align-items: center;
+    overflow: hidden;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #30183C;
+    padding:200px 30px;
+    overflow: hidden;
+  }
+  button{
+    padding: 10px 20px;
+    border: 1px solid #d2d0d0;
+    font-size: 16px;
+  }
+  nav  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    position: relative;
+
+  }
+span> img{
+  padding-left:140px;
+  width: 470px;
+  object-fit: cover;
+}
+}
+@media only screen and (max-width: 859px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding:10px 20px;
+    text-align: center;
+  }
+
+
+  span> img{
+   visibility: hidden;
+    width: 0;
+  }
+  section{
+
+    margin-top: 20px;
+    display: initial;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffea00;
+  }
+}
+@media only screen and (max-width: 616px) {
+  header{    font-size: 19px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;}
+  nav > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

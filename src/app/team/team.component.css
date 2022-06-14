@@ -44,3 +44,10 @@ img{
 img[alt="projectManagers"]{
   border-radius: 170px;
 }
+
+h4{
+  margin-bottom: 0;
+}
+p{
+  margin-bottom: 70px;
+}
