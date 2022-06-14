@@ -1,37 +1,8 @@
-<body>
+<body id="sponsors">
 <h3>SPONSORS</h3>
 
 <main>
-  <!--Include all images for the sponsors-->
-  <!--Include back end to make content dynamic-->
-  <img src="https://www.enactusstclair.ca/wp-content/uploads/2018/04/St.-Clair_s.png" alt="stclair-logo">
-  <img src="https://www.enactusstclair.ca/wp-content/uploads/2018/04/SRC_s.png" alt="src-student-council">
-  <img src="https://www.enactusstclair.ca/wp-content/uploads/2018/04/Scotia_s.png" alt="scotiabank">
-  <img src="https://www.enactusstclair.ca/wp-content/uploads/2018/04/Alumni_s.png" alt="stLClair-alumni">
-  <img src="https://www.enactusstclair.ca/wp-content/uploads/2019/08/genesis-2-300x123.png" alt="stClairCollege-entrepreneurship-center">
+  <img  *ngFor="let items of sponsors" src="{{items.image}}" alt="sponsor-image">
 </main>
 
 </body>
-
-<style>
-  body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  img{
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    object-fit: contain;
-  }
-</style>

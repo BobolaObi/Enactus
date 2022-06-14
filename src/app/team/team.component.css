@@ -1,0 +1,53 @@
+
+body{
+
+  overflow: hidden;
+
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:90px 0px;
+}
+
+h3{
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffea00;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+img{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 40px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+img[alt="projectManagers"]{
+  border-radius: 170px;
+}
+
+h4{
+  margin-bottom: 0;
+}
+p{
+  margin-bottom: 70px;
+}
