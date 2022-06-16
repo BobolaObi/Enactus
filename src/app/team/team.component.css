@@ -1,13 +1,11 @@
-
 body{
-
+  text-align: center;
   overflow: hidden;
-
-display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin:90px 0px;
+  margin:auto;
 }
 
 h3{
@@ -17,6 +15,7 @@ h3{
   margin-bottom: 60px;
   text-align: center;
 }
+
 main {
   display: flex;
   flex-direction: row;
@@ -31,6 +30,7 @@ div {
   align-items: center;
   flex-direction: column;
 }
+
 img{
   display: flex;
   flex-direction: row;
@@ -48,6 +48,7 @@ img[alt="projectManagers"]{
 h4{
   margin-bottom: 0;
 }
+
 p{
   margin-bottom: 70px;
 }

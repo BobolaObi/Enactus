@@ -3,13 +3,16 @@
 <main>
   <span *ngFor="let items of projects | slice:0:10; let i=index">
 <!--    For all items that belong to the class "Projects"-, print the items on the screen-->
-    <img src="{{items.image}}" alt="project-logo{{i}}">
+     <a href="https://www.qries.com/">
+       <img src="{{items.image}}" alt="project-logo{{i}}">
+         </a>
     <div>
       <h4>{{items.name}}</h4>
       <h5>{{items.manager}}</h5>
       <p>{{items.description}}</p>
     </div>
   </span>
+
 
 </main>
 </body>
