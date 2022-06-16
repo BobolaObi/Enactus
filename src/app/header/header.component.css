@@ -256,8 +256,7 @@ a:hover {
     margin-top: 50px;
     left: 0;
     flex-direction: column;
-    width: 65%;
-    margin:auto;
+    width: 73%;
 
   }
   #menu-toggle ~ .menu li {
