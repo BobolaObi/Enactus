@@ -4,7 +4,7 @@ h3,h4, p{
 }
 
 h3 {
-  background-image: url("src/assets/Images/Asset 1.svg"),
+  background-image: url("../../assets/Images/background-pattern.svg"),
   linear-gradient(110deg, #18073C, #3C0707);
   background-size: 50vw;
   background-color: #30183C;
@@ -65,12 +65,10 @@ div{
     margin: auto auto 70px;
     border-bottom: 2px solid #ffea00;
 
-
   }
 }
 
 @media only screen and (max-width: 800px){
-
   span{
     flex-direction: column;
     align-items: center;

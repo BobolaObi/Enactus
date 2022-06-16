@@ -3,7 +3,7 @@
 <main>
   <span *ngFor="let items of projects | slice:0:10; let i=index">
 <!--    For all items that belong to the class "Projects"-, print the items on the screen-->
-     <a href="https://www.qries.com/">
+     <a href="{{items.links}}">
        <img src="{{items.image}}" alt="project-logo{{i}}">
          </a>
     <div>
@@ -12,7 +12,5 @@
       <p>{{items.description}}</p>
     </div>
   </span>
-
-
 </main>
 </body>

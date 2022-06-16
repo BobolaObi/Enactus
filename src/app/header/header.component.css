@@ -1,6 +1,7 @@
 /* Header Styles & Content */
 body {
-margin-bottom: 40px;
+  overflow: hidden;
+  margin-bottom: 40px;
 }
 
 /*Body content styles*/
@@ -11,8 +12,8 @@ header{
   font-size: 25px;
   color: whitesmoke;
   background-color: #30183C;
-padding:200px 10px;
-  background-image: url("src/assets/Images/Asset 1.svg"),
+  padding: 13vh;
+  background-image: url("../../assets/Images/background-pattern.svg"),
   linear-gradient(110deg, #18073C, #401515);
   background-repeat:unset;
   border-bottom: 2px solid #ffea00;
@@ -20,17 +21,18 @@ padding:200px 10px;
 
 /*Navigation styles*/
 nav {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
-  /*background-color: rgb(39, 10, 50);*/
-  /*background-image: url("src/assets/Images/Asset 1.svg"),*/
-  /*linear-gradient(110deg, #18073C, #401515);*/
   background-image: linear-gradient(110deg, #18073C, #401515);
   list-style-type: none;
+  /*background-color: rgb(39, 10, 50);*/
+  /*background-image: url("src/assets/Images/background-pattern.svg"),*/
+  /*linear-gradient(110deg, #18073C, #401515);*/
 }
 nav img {
   padding: 10px;
@@ -46,8 +48,9 @@ nav ul {
   flex-direction: row;
   align-items: center;
   margin: 0 50px;
-
+  text-align: center;
 }
+
 nav a {
   padding: 15px 50px;
   color: #ffffff;
@@ -114,14 +117,14 @@ section{
     position: relative;
 
   }
-span> img{
+span > img{
   padding-left:140px;
   width: 470px;
   object-fit: cover;
-}
+  }
 }
 @media only screen and (max-width: 869px) {
-  header{
+  header {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -131,12 +134,10 @@ span> img{
     padding:10px 20px;
     text-align: center;
   }
-
   span > img{
    visibility: hidden;
     width: 0;
   }
-
   section{
     margin-top: 20px;
     display: initial;
@@ -146,25 +147,30 @@ span> img{
     align-items: center;
     flex-direction: column;
   }
+
   h2{
     padding-bottom: 10px;
     border-bottom: 2px solid #ffea00;
   }
 }
 @media only screen and (max-width: 616px) {
-  header{    font-size: 19px;
+  header{
+    font-size: 19px;
     display: flex;
     align-items: center;
-    overflow: hidden;}
+    overflow: hidden;
+  }
   nav > ul {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  nav{
+    overflow: hidden;
   }
 }
 span:hover{
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 8.99s;
-
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
 }
