@@ -1,4 +1,8 @@
-
+img{
+  max-width: 100PX;
+  min-width: 100px;
+  object-fit: cover;
+}
 nav ul {
   display: flex;
   flex-direction: row;
