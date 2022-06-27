@@ -1,6 +1,6 @@
 /*Body styles*/
 body {
-  background-image: url("../../assets/Images/background-pattern.svg"),
+  background-image: url("../../assets/Images-UI/background-pattern.svg"),
   linear-gradient(110deg, #18073C, #401515);
   background-repeat:unset;
   padding: 90px 70px;

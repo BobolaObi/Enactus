@@ -4,7 +4,7 @@ h3,h4, p{
 }
 
 h3 {
-  background-image: url("../../assets/Images/background-pattern.svg"),
+  background-image: url("../../assets/Images-UI/background-pattern.svg"),
   linear-gradient(110deg, #18073C, #3C0707);
   background-size: 50vw;
   background-color: #30183C;

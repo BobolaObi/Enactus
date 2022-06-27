@@ -13,21 +13,21 @@ export class ProjectsComponent implements OnInit {
     this.projects = [
       {
         links: "https://www.enactusstclair.ca/interAct/",
-         image: "https://www.enactusstclair.ca/interAct/images/interACT-sm.png",
+         image: "assets/Projects-Images/interACT-sm.png",
         name: "interACT",
         manager: "Project Manager: Bethany D’Alimonte – interactwindsor@gmail.com",
         description: "interACT is a financial literacy project that aims to support the livelihood of international students as they pursue their studies and look to establish themselves in Canada’s work culture. Our team directly supports these students through the development of our live mobile application and website, as well as through mock interviews, seminars, and resume clinics.",
       },
       {
         links: "",
-        image:"https://www.enactusstclair.ca/wp-content/uploads/2022/01/reVERT-300x180.png",
+        image:"assets/Projects-Images/reVERT-300x180.png",
         name:"reVERT",
         manager:"Project Manager – Trevor Ramieri – trevor.ramieri01@stclairconnect.ca",
         description:"reVERT is a green tech sustainability project that looks to divert unnecessary waste from landfills from institutions. We do this by working with waste management teams to better assess their consumers’ waste habits and generate real-time solutions. This is done through direct education and our developed solutions, such as the development of our waste sensor system"
       },
       {
         links: "",
-        image:"https://www.enactusstclair.ca/wp-content/uploads/2022/01/E.A.S.T._-_Dark-300x300.png",
+        image:"assets/Projects-Images/E.A.S.T._-_Dark-300x300.png",
         name:"E.A.S.T",
         manager:"Project Manager: Blake Paterson – BP26@myscc.ca",
         description:"E.A.S.T., or Entrepreneurial Action in Skilled Trades, is an educational initiative that aims to \n" +
@@ -36,7 +36,7 @@ export class ProjectsComponent implements OnInit {
           "    vending opportunities. Our project supports the efforts of these businesses while fostering a true community."
       }, {
         links: "",
-        image:"https://www.enactusstclair.ca/wp-content/uploads/2022/01/Endure-Dark-300x300.png",
+        image:"assets/Projects-Images/Endure-Dark-300x300.png",
         name:"Endure",
         manager:"Project Manager: Francesco DiLeonardo – fd@myscc.ca",
         description:"Endure is a peer mentorship project that instills confidence and empowerment in\n" +
@@ -47,7 +47,7 @@ export class ProjectsComponent implements OnInit {
       },
       {
         links: "",
-        image:"https://www.enactusstclair.ca/wp-content/uploads/2022/01/transPLANT-300x100.png",
+        image:"assets/Projects-Images/transPLANT-300x100.png",
         name:"transPLANT",
         manager:"Project Manager: Brianna Gaylord – BG39@myscc.ca",
         description:"transPLANT is a budding social enterprise that looks to improve residential and institutional \n" +
@@ -57,7 +57,7 @@ export class ProjectsComponent implements OnInit {
       },
       {
         links: "",
-        image:"https://www.enactusstclair.ca/wp-content/uploads/2022/01/palma-300x300.png",
+        image:"assets/Projects-Images/palma-300x300.png",
         name:"Palma",
         manager:"Project Manager: Sierra Piekosz – SP215@myscc.ca",
         description:"palma is a mental health project that aims to improve the ability to assess, explore, and communicate\n" +
