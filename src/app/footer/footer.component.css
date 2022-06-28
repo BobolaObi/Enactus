@@ -17,11 +17,20 @@ div{
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 30px;
-
+}
+#space-overflow > a{
+  margin: 5px;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 /*Image styles*/
 img{
   width: 200px;
+  font-weight: bold;
 }
 
 /*Media Queries*/
